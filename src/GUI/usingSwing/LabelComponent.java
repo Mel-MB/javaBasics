@@ -4,9 +4,9 @@ import javax.swing.*;
 import javax.swing.border.Border;
 import java.awt.*;
 
-public class MyLabel extends JLabel {
+public class LabelComponent extends JLabel {
 
-    MyLabel(String text, ImageIcon icon){
+    LabelComponent(String text, ImageIcon icon){
         super(text,icon,JLabel.CENTER);
 
         //Set label size (mandatory for label to display as soon as frame has dimensions (otherwise 100%)

@@ -3,9 +3,9 @@ package GUI.usingSwing;
 import javax.swing.*;
 import java.awt.*;
 
-public class MyFrame extends JFrame {
+public class FrameComponent extends JFrame {
 
-    MyFrame(){
+    FrameComponent(){
         // Frame object creation
 
         // Set Frame properties

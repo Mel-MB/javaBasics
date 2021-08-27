@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         // Label = GUI display area for text String, Icon, or both
-        MyLabel congratsLabel = new MyLabel("You're rockin' it ! Ready for take off ?", new ImageIcon("src/GUI/usingSwing/medias/science_rocks.png"));
+        LabelComponent congratsLabel = new LabelComponent("You're rockin' it ! Ready for take off ?", new ImageIcon("src/GUI/usingSwing/medias/science_rocks.png"));
 
         // Button = Classical buttons with action hooks
         JButton button = new JButton();
@@ -30,7 +30,7 @@ public class Main {
 
 
         //JFrame = GUI window to add components to
-        MyFrame frame = new MyFrame();
+        FrameComponent frame = new FrameComponent();
 
         blackPanel.add(congratsLabel);
         frame.add(blackPanel);
